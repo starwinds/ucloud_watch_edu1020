@@ -1,0 +1,21 @@
+{
+   "command":"listAlarmHistory",
+   "parameter":{
+      "alarmname":{
+         "required":"yes",
+         "param":"testalarm1019"
+      },
+      "startdate":{
+         "required":"no",
+         "param":"2016-10-19T09:23:40.000Z"
+      },
+      "enddate":{
+         "required":"no",
+         "param":"2016-10-19T10:00:40.000Z"
+      },
+      "nexttoken":{
+         "required":"no",
+         "param":"1386f68c30c"
+      }
+   }
+}

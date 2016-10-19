@@ -1,0 +1,17 @@
+{
+   "command":"setAlarmState",
+   "parameter":{
+      "alarmname":{
+         "required":"yes",
+         "param":"testalarm1019"
+      },
+      "StateReason":{
+         "required":"yes",
+         "param":"test"
+      },
+      "StateValue":{
+         "required":"yes",
+         "param":"ALARM"
+      }
+   }
+}

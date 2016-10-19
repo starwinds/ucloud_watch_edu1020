@@ -1,0 +1,34 @@
+{  
+   "command":"getMetricStatistics",
+   "parameter":{  
+      "metricname":{  
+         "required":"yes",
+         "param":"CPUUtilization"
+      },
+      "namespace":{
+	 "required":"yes",
+	 "param":"ucloud/server"
+      },
+      "unit":{
+         "required":"yes",
+         "param":"Percent"
+      },
+      "period":{
+         "required":"yes",
+         "param":5
+      },
+      "Statistics.member.1":{
+         "required":"yes",
+         "param":"Average"
+      },
+      "StartTime":{
+         "required":"yes",
+         "param":"2016-10-18T14:30:00.000"
+      },
+      "EndTime":{
+         "required":"yes",
+         "param":"2016-10-18T15:00:00.000"
+
+      }
+   }
+}

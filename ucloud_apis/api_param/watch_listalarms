@@ -1,0 +1,9 @@
+{
+   "command":"listAlarms",
+   "parameter":{
+     "alarmnames.member.1":{
+         "required":"no",
+         "param":"testalarm1019"
+      }
+   }
+}

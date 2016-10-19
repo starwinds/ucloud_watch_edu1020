@@ -1,0 +1,13 @@
+{
+   "command":"updateAlarm",
+   "parameter":{
+      "alarmname":{
+         "required":"yes",
+         "param":"testalarm1019"
+      },
+      "alarmactions.member.1":{
+         "required":"yes",
+         "param":"steve.woo.321@gmail.com"
+      }
+   }
+}

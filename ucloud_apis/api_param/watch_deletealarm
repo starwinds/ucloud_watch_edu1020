@@ -1,0 +1,9 @@
+{
+   "command":"deleteAlarms",
+   "parameter":{
+      "alarmnames.member.1":{
+         "required":"yes",
+         "param":"testalarm1019"
+      }
+   }
+}
